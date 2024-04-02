@@ -1,0 +1,155 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/admin/Desktop/proxy-contract-example/contracts/Box.sol": {
+      "lastModificationDate": 1711448046161,
+      "contentHash": "8a067160b38f578aa739799bff0a8c5c",
+      "sourceName": "contracts/Box.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Box"
+      ]
+    },
+    "/Users/admin/Desktop/proxy-contract-example/contracts/BoxV2.sol": {
+      "lastModificationDate": 1711448046179,
+      "contentHash": "a8ac722ee5f72a48064907e47cdfbb8e",
+      "sourceName": "contracts/BoxV2.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Box.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BoxV2"
+      ]
+    },
+    "/Users/admin/Desktop/proxy-contract-example/contracts/BoxV4.sol": {
+      "lastModificationDate": 1711448046211,
+      "contentHash": "cfc48a67acd1836b0fbe00d4f7351532",
+      "sourceName": "contracts/BoxV4.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BoxV2.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BoxV4"
+      ]
+    },
+    "/Users/admin/Desktop/proxy-contract-example/contracts/BoxV3.sol": {
+      "lastModificationDate": 1711448046190,
+      "contentHash": "9dff2749b5f8e52007935ce86b080e95",
+      "sourceName": "contracts/BoxV3.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BoxV2.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BoxV3"
+      ]
+    }
+  }
+}

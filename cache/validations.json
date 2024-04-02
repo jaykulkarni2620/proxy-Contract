@@ -1,0 +1,189 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "contracts/Box.sol:Box": {
+        "src": "contracts/Box.sol:5",
+        "version": {
+          "withMetadata": "205a644ff8259be51eabcd61922b996457a42663826959c16d11a2019996fb21",
+          "withoutMetadata": "cba9f8cf52e3c449631a04ea218a6cedcaf7c366669cfc257c89a008266c768f",
+          "linkedWithoutMetadata": "cba9f8cf52e3c449631a04ea218a6cedcaf7c366669cfc257c89a008266c768f"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "store(uint256)",
+          "retrieve()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "value",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "Box",
+              "src": "contracts/Box.sol:6"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.12"
+      },
+      "contracts/BoxV2.sol:BoxV2": {
+        "src": "contracts/BoxV2.sol:7",
+        "version": {
+          "withMetadata": "acf4c75736de45ad77051c547fc7cd7ff82c52c4da9035189a803aa4ce2ede83",
+          "withoutMetadata": "c4cfee625b1f0a503784af15d72b0447987c23b02a71742e8c5025f5717cd395",
+          "linkedWithoutMetadata": "c4cfee625b1f0a503784af15d72b0447987c23b02a71742e8c5025f5717cd395"
+        },
+        "inherit": [
+          "contracts/Box.sol:Box"
+        ],
+        "libraries": [],
+        "methods": [
+          "increment()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "value",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "Box",
+              "src": "contracts/Box.sol:6"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.12"
+      },
+      "contracts/BoxV3.sol:BoxV3": {
+        "src": "contracts/BoxV3.sol:7",
+        "version": {
+          "withMetadata": "70afc31d51da397750539a795fa558feb646be7e9bdb2c12185dab77b1fb1feb",
+          "withoutMetadata": "0fa5d1e958dafcd85925d0dd557dbf8350e368c907322cf96a647417dfd903b5",
+          "linkedWithoutMetadata": "0fa5d1e958dafcd85925d0dd557dbf8350e368c907322cf96a647417dfd903b5"
+        },
+        "inherit": [
+          "contracts/BoxV2.sol:BoxV2",
+          "contracts/Box.sol:Box"
+        ],
+        "libraries": [],
+        "methods": [
+          "setName(string)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "value",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "Box",
+              "src": "contracts/Box.sol:6"
+            },
+            {
+              "label": "name",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_string_storage",
+              "contract": "BoxV3",
+              "src": "contracts/BoxV3.sol:8"
+            }
+          ],
+          "types": {
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.12"
+      },
+      "contracts/BoxV4.sol:BoxV4": {
+        "src": "contracts/BoxV4.sol:7",
+        "version": {
+          "withMetadata": "847b72ac1d4240661ef8ab7c431571b0483d32da1c4f2e356d4c5ad4e2c7c488",
+          "withoutMetadata": "4545c5f918f1ae43edee715e2d8ed04578b85a1d8e3f1b7336170f08e2c4e9a8",
+          "linkedWithoutMetadata": "4545c5f918f1ae43edee715e2d8ed04578b85a1d8e3f1b7336170f08e2c4e9a8"
+        },
+        "inherit": [
+          "contracts/BoxV2.sol:BoxV2",
+          "contracts/Box.sol:Box"
+        ],
+        "libraries": [],
+        "methods": [
+          "setName(string)",
+          "getName()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "value",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "Box",
+              "src": "contracts/Box.sol:6"
+            },
+            {
+              "label": "name",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_string_storage",
+              "contract": "BoxV4",
+              "src": "contracts/BoxV4.sol:8"
+            }
+          ],
+          "types": {
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.12"
+      }
+    }
+  ]
+}
